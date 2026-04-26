@@ -5,27 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seja Alguem</title>
 
-    <!-- Script do AdSense -->
+    <!-- Script do Google AdSense -->
     <script async src="https://googlesyndication.com" crossorigin="anonymous"></script>
 
     <style>
-        body { margin: 0; padding: 0; background: url('v1016-b-09.jpg') no-repeat center center fixed; background-size: cover; color: white; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
-        .container { background-color: rgba(0, 0, 0, 0.85); max-width: 850px; width: 90%; margin: 40px 0; padding: 30px; border-radius: 20px; text-align: center; }
-        .video-wrapper { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 15px; border: 3px solid #28a745; }
-        .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-        h1 { color: #28a745; }
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('v1016-b-09.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.75); /* Fundo escuro para ler o texto */
+            max-width: 900px;
+            width: 90%;
+            margin: 40px 0;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+        }
+
+        h1 { color: #28a745; margin-bottom: 20px; }
+        h2 { color: #4CAF50; margin-top: 30px; }
+
+        iframe {
+            max-width: 100%;
+            border: 2px solid #28a745;
+            border-radius: 10px;
+        }
+
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .btn:hover { background-color: #218838; }
+
+        .texto-curso {
+            text-align: left;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+
+        .aula-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>APRENDA O BÁSICO!</h1>
-        <div class="video-wrapper">
-            <!-- AGORA O LINK ESTÁ COMPLETO COM O EMBED -->
-            <iframe src="https://youtube.com/embed/C-AA7wX-Lqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div style="text-align: left; margin-top: 20px;">
-            <p><strong>Curso de Programação:</strong> Marketing digital do básico ao avançado.</p>
+
+        <!-- Onde o vídeo e os anúncios aparecem -->
+        <iframe width="560" height="315" src="https://youtube.com" frameborder="0" allowfullscreen></iframe>
+
+        <br>
+        <a href="https://youtube.com" target="_blank" class="btn">👉 Clique aqui para visitar o Curso 👆</a>
+
+        <div class="texto-curso">
+            <h2>Curso de Programação</h2>
+            <p>Aprenda estratégias de marketing digital do básico ao avançado com vídeos práticos e exemplos reais.</p>
+            
+            <div class="aula-item">AULA 1: Descubra novas formas de evoluir todos os dias.</div>
+            <div class="aula-item">AULA 2: Conteúdo feito para facilitar seu crescimento.</div>
+            <div class="aula-item">AULA 3: Explicações simples que realmente ajudam.</div>
+            <div class="aula-item">AULA 4: Dê o próximo passo no seu desenvolvimento.</div>
+            <div class="aula-item">AULA 5: Tudo organizado para você entender melhor.</div>
+            
+            <h3 style="margin-top:30px;">1- O Poder de Criar</h3>
+            <p>Aprender programação não é só sobre mexer com computadores — é sobre ganhar poder de criar. Você deixa de ser apenas alguém que usa tecnologia e passa a ser alguém que constrói soluções.</p>
+
+            <h3>2- Disciplina e Criatividade</h3>
+            <p>Programação desenvolve disciplina e criatividade ao mesmo tempo. Você aprende a pensar passo a passo, a encontrar erros e corrigi-los, transformando ideias em algo real.</p>
         </div>
     </div>
+
 </body>
 </html>
