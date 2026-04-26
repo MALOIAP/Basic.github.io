@@ -1,118 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seja Alguém</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aprenda Programação do Zero</title>
 
-    <!-- Google AdSense -->
-    <script async 
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
-    crossorigin="anonymous"></script>
+<!-- Google AdSense -->
+<script async
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+crossorigin="anonymous"></script>
 
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background: url('v1016-b-09.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
 
-        .container {
-            background-color: rgba(0, 0, 0, 0.75);
-            max-width: 900px;
-            width: 90%;
-            margin: 40px 0;
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
-        }
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #28a745;
+}
 
-        h1 { color: #28a745; margin-bottom: 20px; }
-        h2 { color: #4CAF50; margin-top: 30px; }
+header h1 {
+    color: #28a745;
+    margin: 0;
+}
 
-        /* ✔️ VIDEO RESPONSIVO */
-        .video-container {
-            position: relative;
-            width: 100%;
-            max-width: 560px;
-            margin: 0 auto;
-            aspect-ratio: 16 / 9;
-        }
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
 
-        .video-container iframe {
-            width: 100%;
-            height: 100%;
-            border: 2px solid #28a745;
-            border-radius: 10px;
-        }
+.video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin-bottom: 20px;
+}
 
-        .texto-curso {
-            text-align: left;
-            line-height: 1.8;
-            margin-top: 20px;
-        }
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #28a745;
+}
 
-        .aula-item {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 10px;
-            margin-bottom: 5px;
-            border-radius: 5px;
-        }
-    </style>
+.section {
+    background: #1a1a1a;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.lesson {
+    padding: 10px;
+    margin-top: 10px;
+    background: #222;
+    border-radius: 5px;
+}
+
+.ad-box {
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+</style>
 </head>
 
 <body>
 
-<div class="container">
-    <h1>APRENDA PROGRAMAÇÃO DO ZERO!</h1>
+<header>
+    <h1>Aprenda Programação do Zero</h1>
+    <p>Crie sites, sistemas e comece sua carreira na tecnologia</p>
+</header>
 
-    <!-- VÍDEO CORRIGIDO -->
-    <div class="video-container">
+<div class="container">
+
+    <!-- VÍDEO -->
+    <div class="video">
         <iframe 
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="YouTube video player"
-            frameborder="0"
-            allowfullscreen>
+        src="https://www.youtube.com/embed/C-AA7wX-Lqc?si=MQZbPLRblhiCXPl7"
+        title="YouTube video player"
+        frameborder="0"
+        allowfullscreen>
         </iframe>
     </div>
 
-    <!-- ANÚNCIO -->
-    <div style="margin: 20px 0;">
+    <!-- ANÚNCIO 1 -->
+    <div class="ad-box">
         <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-XXXXXXXXXXXX"
-             data-ad-slot="1234567890"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
+        style="display:block"
+        data-ad-client="ca-pub-XXXXXXXXXXXX"
+        data-ad-slot="1234567890"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
 
         <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </div>
 
-    <div class="texto-curso">
-        <h2>Curso de Programação</h2>
-
-        <p>Aprenda programação do básico ao avançado com aulas práticas e projetos reais.</p>
-        
-        <div class="aula-item">AULA 1: Introdução à programação</div>
-        <div class="aula-item">AULA 2: Lógica de programação</div>
-        <div class="aula-item">AULA 3: HTML e CSS</div>
-        <div class="aula-item">AULA 4: JavaScript básico</div>
-        <div class="aula-item">AULA 5: Criando seu primeiro projeto</div>
-
-        <h3>O Poder de Criar</h3>
-        <p>Programar é transformar ideias em realidade.</p>
+    <!-- CONTEÚDO -->
+    <div class="section">
+        <h2>Sobre o Curso</h2>
+        <p>
+        Aqui você aprende programação do absoluto zero, com explicações simples, práticas e diretas ao ponto. Ideal para iniciantes.
+        </p>
     </div>
+
+    <div class="section">
+        <h2>Conteúdo das Aulas</h2>
+
+        <div class="lesson">Aula 1: Introdução à programação</div>
+        <div class="lesson">Aula 2: Lógica de programação</div>
+        <div class="lesson">Aula 3: HTML e CSS básico</div>
+        <div class="lesson">Aula 4: JavaScript inicial</div>
+        <div class="lesson">Aula 5: Primeiro projeto prático</div>
+    </div>
+
+    <!-- ANÚNCIO 2 -->
+    <div class="ad-box">
+        <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-XXXXXXXXXXXX"
+        data-ad-slot="1234567890"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <div class="section">
+        <h2>Por que aprender programação?</h2>
+        <p>
+        Programação é uma das habilidades mais valorizadas do mundo. Você pode criar sites, aplicativos e até trabalhar de casa.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Política e Transparência</h2>
+        <p style="font-size: 14px;">
+        Este site pode exibir anúncios do Google AdSense para manter o conteúdo gratuito.
+        </p>
+    </div>
+
 </div>
+
+<footer>
+    © 2026 - Site de Programação | Todos os direitos reservados
+</footer>
 
 </body>
 </html>
