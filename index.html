@@ -5,75 +5,82 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aprenda Programação do Zero</title>
 
-<!-- Google AdSense -->
-<script async
-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+<!-- AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2075698357082026"
 crossorigin="anonymous"></script>
 
 <style>
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0f0f0f;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
     color: white;
 }
 
+/* HEADER */
 header {
-    background: #111;
-    padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #28a745;
+    padding: 30px 15px;
 }
 
 header h1 {
     color: #28a745;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
+/* CONTAINER */
 .container {
     max-width: 900px;
     margin: auto;
-    padding: 20px;
+    padding: 15px;
 }
 
+/* VIDEO */
 .video {
-    position: relative;
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
     margin-bottom: 20px;
 }
 
 .video iframe {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-    border: 2px solid #28a745;
+    border-radius: 12px;
 }
 
-.section {
-    background: #1a1a1a;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.lesson {
-    padding: 10px;
-    margin-top: 10px;
+/* CARDS */
+.card {
     background: #222;
-    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.2s;
 }
 
-.ad-box {
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* BOTÃO */
+button {
+    background: #28a745;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1f8f3a;
+}
+
+/* ADS */
+.ad {
     margin: 20px 0;
     text-align: center;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 12px;
-    color: #aaa;
 }
 </style>
 </head>
@@ -82,27 +89,37 @@ footer {
 
 <header>
     <h1>Aprenda Programação do Zero</h1>
-    <p>Crie sites, sistemas e comece sua carreira na tecnologia</p>
+    <p>Simples, rápido e direto ao ponto</p>
 </header>
 
 <div class="container">
 
-    <!-- VÍDEO -->
+    <!-- VÍDEO REAL DE PROGRAMAÇÃO -->
     <div class="video">
-    <iframe 
+        <iframe 
         src="https://www.youtube.com/embed/qz0aGYrrlhU"
-        title="Curso de HTML e CSS para iniciantes"
+        title="Curso de HTML e CSS"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
-    </iframe>
-</div>
+        </iframe>
+    </div>
 
-    <!-- ANÚNCIO 1 -->
-    <div class="ad-box">
+    <div class="card">
+        <h2>🔥 Para quem quer aprender rápido</h2>
+        <p>Assista o vídeo e já comece a criar seu primeiro site hoje mesmo.</p>
+        <button>Começar Aula</button>
+    </div>
+
+    <div class="card">
+        <h2>📚 Para quem quer estudar sério</h2>
+        <p>Aqui você aprende lógica, HTML, CSS e JavaScript passo a passo.</p>
+    </div>
+
+    <!-- ANÚNCIO -->
+    <div class="ad">
         <ins class="adsbygoogle"
         style="display:block"
-        data-ad-client="ca-pub-XXXXXXXXXXXX"
+        data-ad-client="ca-pub-2075698357082026"
         data-ad-slot="1234567890"
         data-ad-format="auto"
         data-full-width-responsive="true"></ins>
@@ -112,57 +129,12 @@ footer {
         </script>
     </div>
 
-    <!-- CONTEÚDO -->
-    <div class="section">
-        <h2>Sobre o Curso</h2>
-        <p>
-        Aqui você aprende programação do absoluto zero, com explicações simples, práticas e diretas ao ponto. Ideal para iniciantes.
-        </p>
-    </div>
-
-    <div class="section">
-        <h2>Conteúdo das Aulas</h2>
-
-        <div class="lesson">Aula 1: Introdução à programação</div>
-        <div class="lesson">Aula 2: Lógica de programação</div>
-        <div class="lesson">Aula 3: HTML e CSS básico</div>
-        <div class="lesson">Aula 4: JavaScript inicial</div>
-        <div class="lesson">Aula 5: Primeiro projeto prático</div>
-    </div>
-
-    <!-- ANÚNCIO 2 -->
-    <div class="ad-box">
-        <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-XXXXXXXXXXXX"
-        data-ad-slot="1234567890"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </div>
-
-    <div class="section">
-        <h2>Por que aprender programação?</h2>
-        <p>
-        Programação é uma das habilidades mais valorizadas do mundo. Você pode criar sites, aplicativos e até trabalhar de casa.
-        </p>
-    </div>
-
-    <div class="section">
-        <h2>Política e Transparência</h2>
-        <p style="font-size: 14px;">
-        Este site pode exibir anúncios do Google AdSense para manter o conteúdo gratuito.
-        </p>
+    <div class="card">
+        <h2>🚀 O que você vai aprender</h2>
+        <p>HTML, CSS, JavaScript e criação de sites reais.</p>
     </div>
 
 </div>
-
-<footer>
-    © 2026 - Site de Programação | Todos os direitos reservados
-</footer>
 
 </body>
 </html>
